@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaPrograms" />
+        <module name="CodingInterviewProblems" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="CodingInterviewProblems" target="1.5" />
+      <module name="CodingInterviewProblems" target="1.8" />
       <module name="JavaPrograms" target="1.5" />
     </bytecodeTargetLevel>
   </component>
