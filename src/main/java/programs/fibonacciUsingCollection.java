@@ -27,8 +27,25 @@ public class fibonacciUsingCollection {
              for(int i=3;i<=length;i++){
                  fiboSeries.add(fiboSeries.get(i-2) + fiboSeries.get(i-3));
              }
+            System.out.println("Fibonacci Series for provided Input "+ fiboSeries.toString());
         }
 
-        System.out.println("Fibonacci Series for provided Input "+ fiboSeries.toString());
+
+        System.out.println("Fibonacci Using Tail Recursions");
+        for(int i =1;i<=length;i++){
+            System.out.print(fiboUsingTailRecursion(i - 1) + " , ");
+        }
     }
+
+    private static int fiboUsingTailRecursion(int number){
+        if(number == 0) {
+            return 0;
+        }
+
+        if(number == 1) {
+            return 1;
+        }
+         return fiboUsingTailRecursion(number-1) + fiboUsingTailRecursion(number-2);
+    }
+
 }
