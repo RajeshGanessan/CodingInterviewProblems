@@ -15,6 +15,7 @@ public class EquilateralTriangle {
     private static void drawTriangle(int rows) {
         int i,j;
         int spaceRow = rows-1;
+
         for(i=1;i<=rows;i++){
 
             for(j=i;j<=spaceRow;j++) System.out.print(" ");

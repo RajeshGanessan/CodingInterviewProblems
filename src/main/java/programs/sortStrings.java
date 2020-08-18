@@ -7,11 +7,12 @@ public class sortStrings {
     public static void main(String[] args) {
 
         System.out.println("Sorting words in a sentence");
-
+//
         Scanner sc =  new Scanner(System.in);
         String input = sc.nextLine();
-//        SortString(input);
+        SortString(input);
         UsingSortMethod(input);
+
     }
 
     private static void SortString(String input){
