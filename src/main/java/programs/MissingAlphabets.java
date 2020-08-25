@@ -8,6 +8,7 @@ public class MissingAlphabets {
         System.out.println("Finding missing alphabets");
 
         String alphabets[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+        System.out.println(alphabets.length);
 
         Scanner sc = new Scanner(System.in);
         String inputText = sc.nextLine();
