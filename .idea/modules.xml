@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CodingInterviewProblems.iml" filepath="$PROJECT_DIR$/.idea/CodingInterviewProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaPrograms/JavaPrograms.iml" filepath="$PROJECT_DIR$/JavaPrograms/JavaPrograms.iml" />
+      <module fileurl="file://$USER_HOME$/files1/MSE-Automation/mse-automation/Local-MSE/MSE-Automation.iml" filepath="$USER_HOME$/files1/MSE-Automation/mse-automation/Local-MSE/MSE-Automation.iml" />
     </modules>
   </component>
 </project>
