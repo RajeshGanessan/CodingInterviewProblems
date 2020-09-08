@@ -13,7 +13,7 @@
     <bytecodeTargetLevel target="11">
       <module name="CodingInterviewProblems" target="1.8" />
       <module name="JavaPrograms" target="12" />
-      <module name="MSE-Automation" target="1.8" />
+      <module name="MSE-Automation" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
