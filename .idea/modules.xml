@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodingProblemsJava.iml" filepath="$PROJECT_DIR$/CodingProblemsJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PageObjectModel-Using-Java-generics/PageObjectModel-Generics/InEDGE-Automation.iml" filepath="$PROJECT_DIR$/../PageObjectModel-Using-Java-generics/PageObjectModel-Generics/InEDGE-Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java-8-Concepts/Java 8/Java 8.iml" filepath="$PROJECT_DIR$/../Java-8-Concepts/Java 8/Java 8.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaPrograms/JavaPrograms.iml" filepath="$PROJECT_DIR$/JavaPrograms/JavaPrograms.iml" />
-      <module fileurl="file://$USER_HOME$/files1/MSE-Automation/mse-automation/Local-MSE/MSE-Automation.iml" filepath="$USER_HOME$/files1/MSE-Automation/mse-automation/Local-MSE/MSE-Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ExtentReports--TestNG-Listeners/ExtentReports/LogsGeneration.iml" filepath="$PROJECT_DIR$/../ExtentReports--TestNG-Listeners/ExtentReports/LogsGeneration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ParallelTests-Configuration/ParallelTestsConfiguration/MavenSelenium.iml" filepath="$PROJECT_DIR$/../ParallelTests-Configuration/ParallelTestsConfiguration/MavenSelenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Selenium-TestExecution-Using-Docker/Selenium-Docker Integration/SeleniumWithDocker.iml" filepath="$PROJECT_DIR$/../Selenium-TestExecution-Using-Docker/Selenium-Docker Integration/SeleniumWithDocker.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/ABInBev/Sep 10/abinbev-automation/abinbev-automation-qarashad/abinbev-automation.iml" filepath="$USER_HOME$/Downloads/ABInBev/Sep 10/abinbev-automation/abinbev-automation-qarashad/abinbev-automation.iml" />
     </modules>
   </component>
 </project>
