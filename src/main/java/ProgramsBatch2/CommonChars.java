@@ -1,5 +1,6 @@
 package ProgramsBatch2;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
@@ -16,7 +17,9 @@ public class CommonChars {
 
         // getCommonCharacters(s1,s2);
 
-        System.out.println(getCommonChars(s1, s2));
+//        System.out.println(getCommonChars(s1, s2));
+
+        System.out.println(getCommonWithCollection(s1,s2));
 
 
     }
@@ -63,13 +66,28 @@ public class CommonChars {
     private static String getCommonWithCollection(String s1, String s2) {
 
         if (s1.length() > 0 && s2.length() > 0) {
-            List<String> string1 = List.of(s1);
-            List<String> string2 = List.of(s2);
+            List<Character> string1 = new ArrayList<>();
+            List<Character> string2 = new ArrayList<>();
 
+            for (int i = 0; i < s1.length(); i++) {
+                string1.add(s1.charAt(i));
+            }
+
+            for (int i = 0; i < s2.length(); i++) {
+                string2.add(s2.charAt(i));
+            }
+
+            // Finding intersection of both lists
             string1.retainAll(string2);
 
-            return string1.toString();
+            // FOrming string from intersected chars
+            StringBuilder sb = new StringBuilder();
 
+            for (Character c : string1) {
+                sb.append(c);
+            }
+
+            return sb.toString();
         } else
             return "";
     }
