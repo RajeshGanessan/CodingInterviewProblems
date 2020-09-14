@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaPrograms/JavaPrograms.iml" filepath="$PROJECT_DIR$/JavaPrograms/JavaPrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ExtentReports--TestNG-Listeners/ExtentReports/LogsGeneration.iml" filepath="$PROJECT_DIR$/../ExtentReports--TestNG-Listeners/ExtentReports/LogsGeneration.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ParallelTests-Configuration/ParallelTestsConfiguration/MavenSelenium.iml" filepath="$PROJECT_DIR$/../ParallelTests-Configuration/ParallelTestsConfiguration/MavenSelenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RestAssuredAPI-Automation/RestAssuredAPI-Practice.iml" filepath="$PROJECT_DIR$/../RestAssuredAPI-Automation/RestAssuredAPI-Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Selenium-TestExecution-Using-Docker/Selenium-Docker Integration/SeleniumWithDocker.iml" filepath="$PROJECT_DIR$/../Selenium-TestExecution-Using-Docker/Selenium-Docker Integration/SeleniumWithDocker.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/ABInBev/Sep 10/abinbev-automation/abinbev-automation-qarashad/abinbev-automation.iml" filepath="$USER_HOME$/Downloads/ABInBev/Sep 10/abinbev-automation/abinbev-automation-qarashad/abinbev-automation.iml" />
     </modules>
