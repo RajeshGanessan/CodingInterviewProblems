@@ -20,7 +20,7 @@
     <bytecodeTargetLevel target="11">
       <module name="abinbev-automation" target="1.8" />
       <module name="CodingInterviewProblems" target="1.8" />
-      <module name="CodingProblemsJava" target="1.8" />
+      <module name="CodingProblemsJava" target="9" />
       <module name="InEDGE-Automation" target="1.5" />
       <module name="Java 8" target="11" />
       <module name="JavaPrograms" target="12" />
