@@ -21,6 +21,8 @@ public class StringInsert {
         System.out.println(result);
 
         System.out.println("Using subString method" + InsertUsingSubString(s1,s2,indexToInsert));
+        System.out.println("Using Loop method" + insertUsingLoop(s1,s2,indexToInsert));
+
     }
 
     private static String getUsingStringBuilder(String s1, String s2, int index) {
@@ -37,6 +39,21 @@ public class StringInsert {
         s1 = s1.substring(0,index)+s2+s1.substring(index);
         return s1;
     }
+
+    private static String insertUsingLoop(String s1,String s2,int index){
+
+        String result = "";
+        for(int i=0;i<s1.length();i++){
+            if(i!=index){
+                result = result + s1.charAt(i);
+            } else {
+                result = result + s2+s1.charAt(i);
+            }
+        }
+        return result;
+    }
+
+
 
 
 }
