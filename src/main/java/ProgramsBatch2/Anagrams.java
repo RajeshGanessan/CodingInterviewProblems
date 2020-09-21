@@ -1,5 +1,6 @@
 package ProgramsBatch2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Anagrams {
@@ -13,7 +14,8 @@ public class Anagrams {
         String str2 = sc.nextLine();
 
         sc.close();
-      boolean isAnag =   isAnagram(str1,str2);
+//      boolean isAnag =   isAnagram(str1,str2);
+         boolean isAnag = isAnagramUsingSort(str1,str2);
       if(isAnag){
           System.out.println("The given Strings are anagrams");
       } else
@@ -21,8 +23,6 @@ public class Anagrams {
     }
 
     private static boolean isAnagram(String str1, String str2) {
-
-
 
         if(str1.length() != str2.length()){
             return false;
@@ -46,5 +46,26 @@ public class Anagrams {
             }
         }
         return true;
+    }
+
+    private static boolean isAnagramUsingSort(String first,String second){
+
+        if(first.length()!=second.length())
+            return false;
+
+        first =  first.toLowerCase();
+        second = second.toLowerCase();
+
+        char[] firstC = first.toCharArray();
+        char[] secondC = second.toCharArray();
+
+        Arrays.sort(firstC);
+        Arrays.sort(secondC);
+
+        if(Arrays.equals(firstC,secondC)){
+            return true;
+        }
+
+        return false;
     }
 }
