@@ -18,8 +18,9 @@ public class exercise13bool {
     }
 
     private static String getResult(String text, boolean flag) {
+        //Can also use CharacterAt to return the character
         if (text.length() <=1) {
-            System.out.println("Invalid string,Please enter different string");
+            System.out.println("Invalid stiring,Please enter different string");
             return "";
         } else {
             if (flag)
