@@ -11,7 +11,7 @@ Ex4:[2, 4, 2, 2] → true
 Ex5:[1, 4, 2, 3] → false
 Ex6:[2, 1, 2, 5] → false
 Ex7:[2, 1, 3, 4, 1, 7, 6] → false
-Ex8:[2, 1, 3, 4, 2, 6, 9] → true"*/
+Ex8:[2, 1, 3  , 4, 2, 6, 9] → true"*/
     public static void main(String[] args) {
 
         System.out.println("fFinding the umber of odd and even");

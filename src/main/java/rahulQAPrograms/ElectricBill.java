@@ -2,7 +2,7 @@ package rahulQAPrograms;
 
 import java.util.Scanner;
 
-public class ElectricBill {
+public class  ElectricBill {
 
 
     public static void main(String[] args) {
